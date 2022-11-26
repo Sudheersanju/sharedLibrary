@@ -12,5 +12,5 @@ def deploy(a,b)
 }
 def run(c)
 {
-  sh "sh java -jar /var/lib/jenkins/workspace/${c}/testing.jar"
+  sh "sh java -jar /home/ubuntu/.jenkins/workspace/${c}/testing.jar"
 }
